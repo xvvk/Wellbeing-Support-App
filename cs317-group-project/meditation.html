@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="meditation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="128x128" href="health.jpg">
+    <link rel="icon" sizes="192x192" href="health.jpg">
+    <title>meditation.</title>
+
+</head>
+<body class="lightgrey">
+<div class="wrapper">
+    <header class="container center padding outline">
+        <h1>meditation.</h1>
+        <p>________________________</p><br>
+        <p>Daily meditation can help to manage stress, clear your mind, and increase creativity. <br><br>
+            Choose one of the guided meditations below and quiet your mind...</p>
+    </header>
+    <p>________________________</p><br><br>
+    <div class="meditations">
+        <p id="breathingSpace">
+            <button id="breathingButton" onclick="playPauseBreathing()"><img src="media/breathing.svg" alt="breathing"></button>
+            <audio id="breathing">
+                <source src="media/breathing-space.mp3" type="audio/mpeg">
+                <source src="media/breathing-space.mp3" type="audio/ogg">
+            </audio>
+        </p>
+<br>
+        <p id="mountainMeditation">
+            <button id="mountainButton" onclick="playPauseMountain()"><img src="media/mountain.svg" alt="mountain"></button>
+            <audio id="mountain">
+                <source src="media/mountain-meditation.mp3" type="audio/mpeg">
+                <source src="media/mountain-meditation.mp3" type="audio/ogg">
+            </audio>
+        </p>
+<br>
+        <p id="bodyScan">
+            <button id="scanButton" onclick="playPauseScan"><img src="media/body-scan.svg" alt="scan"></button>
+            <audio id="scan">
+                <source src="media/body-scan.mp3" type="audio/mpeg">
+                <source src="media/body-scan.mp3" type="audio/ogg">
+            </audio>
+        </p>
+    </div>
+
+
+<div id="nav">
+    <a href="index.html"> <i class="fa fa-home"></i></a>
+    <a href="profile.php"><i class="fa fa-user"></i></a>
+    <a href="chat.php"><i class="fa fa-comment"></i></a>
+    <a href="logout.php"><i class="fa fa-sign-out"></i></a>
+</div>
+
+</div>
+
+
+<script src="meditation.js"></script>
+</body>
+</html>
+

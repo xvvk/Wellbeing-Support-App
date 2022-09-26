@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Raleway, sans-serif;
+}
+p{font-size: 16px; text-align: center;}
+.c{text-align: left}
+html, body {
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    overscroll-behavior-x: none;
+}
+h1{text-align: center; font-size: 45px}
+.container{padding:0.01em 16px}
+.center{text-align:center}
+.padding{padding-top:0;padding-bottom:1px}
+.outline{border: 2px black;}
+
+
+
+/*----------DIV WRAPPER----------*/
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: normal;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.wrapper1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+
+/*----------BUTTONS----------*/
+.button{
+    border: none;
+    background-color: lightslategrey;
+    padding: 25px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn {
+    border: none;
+    background-color: lightslategrey;
+    padding: 20px 56px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn1 {
+    border: none;
+    background-color: lightslategrey;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn2 {
+    border: none;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(102, 103, 171, 0.82);
+}
+.btn3{
+    border: none;
+    padding: 20px 63px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(102, 103, 171, 0.82);
+}
+.btn4 {
+    border: none;
+    padding: 20px 38px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(102, 103, 171, 0.82);
+}
+
+.b1{
+    text-align: center;
+    background-color:  rgba(7, 110, 150, 0.64);
+    color: #f1f1f1;
+}
+.b1:hover{
+    background-color: rgba(102, 103, 171, 0.33);
+    color: black;
+}
+
+.b2{
+    text-align: center;
+    background-color: rgba(102, 103, 171, 0.82);
+    color: #f1f1f1;
+}
+.b2:hover{
+    background-color: #669ab0;
+    color: black;
+}
+
+.b3{
+    text-align: center;
+    background-color: rgba(157, 66, 128, 0.63);
+    color: rgba(241, 241, 241, 0.95);
+}
+.b3:hover{
+    background-color: rgba(102, 103, 171, 0.33);
+    color: black;
+}
+
+
+
+/*----------LOGIN PAGE----------*/
+.login {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.field::placeholder {
+    color: #3a3a3a;
+}
+.field {
+    border: none;
+    background-color:#f1f1f1;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    padding: 0px 0px 10px 10px;
+    outline: none;
+}
+input{border-radius: 0;}
+input[type="text"], input[type="password"], input[type="submit"]{
+    -webkit-appearance: none;
+}
+.sub {
+    width: 70%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+}
+a{color: #4d4b4b;}
+a:hover{color: #000000}
+
+
+
+/*----------NAVIGATION BAR----------*/
+#nav{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+}
+
+#nav a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 170%;
+    display: inline-block;
+    padding: 0.6rem;
+    text-align: right;
+}
+
+#nav a.active{
+    background-color: slategrey;
+    color: white;
+}
+#nav a:hover:not(.active){
+    background-color: dimgrey;
+    color: white;
+}
+
+/* Change the link color on hover */
+#nav a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+/*----------STEPS----------*/
+
+.steps{
+    border: 2px solid black;
+    padding: 14px 28px;
+    background-color: rgba(102, 154, 176, 0.66);
+}
+
+.percent
+{
+    position:relative;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background: #f1f1f1;
+    z-index:1000;
+}
+.percent .num {
+    position:absolute;
+    top:7px;
+    left:0;
+    width:100%;
+    height:100%;
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+}
+.percent .num h2 {
+    color: black;
+    font-weight:700;
+    font-size:40px;
+    transition:0.5s;
+}
+
+svg {
+    position:relative;
+    width:150px;
+    height:150px;
+    z-index:1000;
+}
+svg circle {
+    width:100%;
+    height:100%;
+    fill:none;
+    stroke:#f1f1f1;
+    stroke-width:10;
+    stroke-linecap:round;
+    transform:translate(5px,5px);
+}
+svg circle:nth-child(2) {
+    stroke-dasharray:420;
+    stroke-dashoffset:420;
+}
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset:calc(440 - (440 * 90) / 100);
+    stroke: rgba(102, 154, 176, 0.66);
+}
+tr{text-align: center;}
+
+/*----------CHATROOM----------*/
+
+#chatbox{
+    text-align: left;
+    margin: 0 auto 25px;
+    padding: 10px;
+    background: #f1f1f1;
+    height: 285px;
+    width: 300px;
+    border: 1px solid #c5c5c5;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+}
+
+#submsg{
+    background: rgba(157, 66, 128, 0.63);
+    border: 2px solid rgba(157, 66, 128, 0.63);
+    color: #f1f1f1;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#msg {
+    color: black;
+    height: 1.9rem;
+    flex: 1;
+    border-radius: 4px;
+    border: 2px solid rgba(157, 66, 128, 0.63);
+}
+
+/*----------Reminders----------*/
+
+#reminders-form {
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#input-task {
+    color: black;
+    height: 1.9rem;
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-right: 5px;
+}
+#time-task {
+    color: black;
+    height: 1.9rem;
+    width: 100px;
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-right: 5px;
+}
+#add-task {
+    color: black;
+    height: 1.9rem;
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #000000;
+
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEE;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#finished-tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEE;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: line-through;
+}
+
+#tasks .task .content {
+    flex: 1 1 0%;
+}
+
+#finished-tasks .task .content {
+    flex: 1 1 0%;
+}
+
+#tasks .task .content .text {
+    color: #281f37;
+    font-size: 1.125rem;
+    width: 90%;
+    display: block;
+    transition: 0.4s;
+}
+
+#finished-tasks .task .content .text {
+    color: #281f37;
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+#tasks .task .content .text:not(:read-only) {
+    color: #5a54d5;
+}
+
+#tasks .task .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.task .actions button:hover {
+    opacity: 0.8;
+}
+
+.task .actions button:active {
+    opacity: 0.6;
+}
+
+.task .actions .edit  {
+    color: #217eaf;
+}
+
+.task .actions .del  {
+    color: red;
+    border-style: none;
+}
+
+.task .actions .check {
+    color: #0db90d;
+    border-style: none;
+}
+
+

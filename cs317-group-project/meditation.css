@@ -1,0 +1,116 @@
+html, body{
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#header {
+    color: black;
+    margin: 0;
+    border: 2px black;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+    font-size: 50px;
+    padding: 32px 16px 35px;
+
+
+}
+
+#line{
+
+    text-align: center;
+
+}
+
+#description {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+    width: 98%;
+
+
+}
+
+
+
+
+/* NAVIGATION BAR */
+#nav{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+}
+
+#nav a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 170%;
+    display: inline-block;
+    padding: 0.6rem;
+    text-align: right;
+}
+
+#nav a.active{
+    background-color: slategrey;
+    color: white;
+}
+#nav a:hover:not(.active){
+    background-color: dimgrey;
+    color: white;
+}
+
+/* Change the link color on hover */
+#nav a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+#breathingSpace{
+    text-align: left;
+}
+
+#mountainMeditation{
+    text-align: center;
+}
+
+#bodyScan{
+    text-align: center;
+}
+
+.meditations button img {
+    height: 65%;
+}
+
+
+.meditations button {
+    border: none;
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgba(154, 155, 211, 0.82);
+
+
+}
+.filter-white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
+}

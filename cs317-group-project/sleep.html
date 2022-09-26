@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" id="wrapper1">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="sleep.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" sizes="128x128" href="health.jpg">
+    <link rel="icon" sizes="192x192" href="health.jpg">
+    <title>sleep.</title>
+
+</head>
+<body class="lightgrey" id="wrapper" >
+
+    <h1 id="header">snooze.</h1>
+    <p id="line">________________________</p><br>
+        <p>
+            A deep sleep supports memory <br> and helps you feel refreshed in the morning. <br><br>
+            Choose one you like and doze off into a deep sleep...
+        </p>
+    <p>________________________</p><br>
+    <br><br>
+    <div class="sounds">
+        <p id="rainPara">
+            <button id="rainButton" onclick="playPauseRain()"><img src="media/Rain.svg" alt="rain"></button>
+            <audio id="rain">
+                <source src="media/rain.mp3" type="audio/mpeg">
+                <source src="media/rain.mp3" type="audio/ogg">
+            </audio>
+        </p>
+<br>
+        <p id="beachPara">
+            <button id="beachButton" onclick="playPauseBeach()"><img src="media/Beach.svg" class="filter-white" alt="beach"></button>
+            <audio id="beach">
+                <source src="media/beach.mp3" type="audio/mpeg">
+                <source src="media/beach.mp3" type="audio/ogg">
+            </audio>
+        </p>
+
+    <br>
+    <p id="thunderPara">
+        <button id="thunderButton"  onclick="playPauseThunder()" ><img src="media/Thunder.svg" class="filter-white" alt="thunder"></button>
+        <audio id="thunder">
+            <source src="media/Thunder.mp3" type="audio/mpeg">
+            <source src="media/Thunder.mp3" type="audio/ogg">
+        </audio>
+    </p>
+    </div>
+
+
+
+    <div id="nav">
+        <a href="index.html"> <i class="fa fa-home"></i></a>
+        <a href="profile.php"><i class="fa fa-user"></i></a>
+        <a href="chat.php"><i class="fa fa-comment"></i></a>
+        <a href="logout.php"><i class="fa fa-sign-out"></i></a>
+    </div>
+
+<script src="sleep.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+#line{text-align: center;}
+#description {
+    color: black;
+    margin: 1px;
+    font-size: 1rem;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+}
+
+
+#location{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+
+#degrees{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+
+#summary{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+#des{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+#icon{
+    text-align: center;
+}

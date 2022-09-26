@@ -1,0 +1,7 @@
+{
+  "name": "cs317-group-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^9.6.10"
+  }
+}

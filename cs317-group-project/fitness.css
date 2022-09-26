@@ -1,0 +1,180 @@
+
+#header{
+    color: black;
+    margin: 0;
+    border: 2px black;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+    font-size: 50px;
+    padding: 32px 16px 35px;
+
+
+}
+
+#line{text-align: center;}
+#description {
+    color: black;
+    margin: 1px;
+    font-size: 1rem;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+html, body {touch-action: manipulation;}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    flex-wrap: wrap;
+}
+.container {
+
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 47px;
+
+}
+
+.container .challenges {
+    position: relative;
+    max-width: 280px;
+    height: 220px;
+    background-color: rgba(7, 110, 150, 0.64);
+    margin: 30px 10px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+
+}
+
+.container .challenges:hover {
+    height: 370px;
+    background-color: #669ab0;
+
+}
+
+.container .challenges .images {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -60px;
+    z-index: 1;
+    color: #f1f1f1;
+
+}
+
+
+.container .challenges .images img {
+    max-width: 100%;
+    border-radius: 9px;
+
+}
+
+
+.container .challenges .challengeDescription {
+    position: relative;
+    margin-top: -140px;
+    padding: 14px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+
+
+}
+
+.container .challenges:hover .images {
+    color: black;
+    background-color: transparent;
+
+}
+
+
+.container .challenges:hover .challengeDescription {
+    visibility: visible;
+    margin-top: -90px;
+    background-color: transparent;
+    transition-delay: 0.15s;
+
+}
+
+
+h2 {
+    transition: 0.3s ease-in-out;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge  taken from stackoverflow */
+    user-select: none;
+
+}
+
+/* NAVIGATION BAR */
+#nav{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    z-index:1;
+}
+
+#nav a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 170%;
+    display: inline-block;
+    padding: 0.6rem;
+    text-align: right;
+    z-index:1;
+}
+
+#nav a.active{
+    background-color: slategrey;
+    color: white;
+    z-index:1;
+}
+#nav a:hover:not(.active){
+    background-color: dimgrey;
+    color: white;
+    z-index:1;
+}
+
+/* Change the link color on hover */
+#nav a:hover {
+    background-color: dimgrey;
+    color: white;
+    z-index:1;
+}
+
+
+

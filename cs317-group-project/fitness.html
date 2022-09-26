@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fitness.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="128x128" href="health.jpg">
+    <link rel="icon" sizes="192x192" href="health.jpg">
+    <title>7 days of fitness.</title>
+</head>
+
+<body class ="lightgrey">
+<h1 id="header"> fancy a challenge?</h1>
+<p id="line">________________________</p><br>
+
+<p id="description"> Test your endurance and skills! <br><br>
+    Just click the images to reveal the challenges. <br><br>
+    Aim: Complete 1 challenge a day<br>
+    and remember, try to have fun!</p>
+<p id="line">________________________</p>
+<div class="main">
+    <div class="container">
+        <div class="challenges">
+            <div class="images">
+                <img src="media/squat.jpeg">
+                <h2 id="challengeOneHeader"> Challenge 1 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeOne"> Squats: Try to do 50 squats today. Depending on your fitness levels you can do
+                    them all at once or spread them throughout the day</p>
+                <p id="challengeOneCB"><input type="checkbox" id="squat" name="complete" value="squat"
+                                              onclick="challengeOneComplete(); saveChallenge1(this.value);allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+        <div class="challenges">
+            <div class="images">
+                <img src="media/plank.jpeg">
+                <h2 id="challengeTwoHeader"> Challenge 2 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeTwo"> Plank: depending on your fitness levels try to hold a plank between 10-60
+                    seconds!</p>
+                <p id="challengeTwoCB"><input type="checkbox" id="plank" name="complete2" value="plank"
+                                              onclick="challengeTwoComplete(); saveChallenge2(this.value); allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+        <div class="challenges">
+            <div class="images">
+                <img src="media/sprint.jpeg">
+                <h2 id="challengeThreeHeader"> Challenge 3 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeThree"> Sprints: Try to sprint as fast as you can for 30 seconds! Slow down the pace for
+                    another 30 seconds then begin to sprint as fast as you can again to get the heart rate back up.
+                    Repeat this as many times as you can!</p>
+                <p id="challengeThreeCB"><input type="checkbox" id="sprint" name="complete3" value="sprint"
+                                                onclick="challengeThreeComplete(); saveChallenge3(this.value);allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+
+        <div class="challenges">
+            <div class="images">
+                <img src="media/skipping.jpeg">
+                <h2 id="challengeFourHeader"> Challenge 4 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeFour"> Skipping: Try to skip for two minutes straight using a skipping rope! If you need
+                    a break don't worry this is more challenging that it sounds!</p>
+                <p id="challengeFourCB"><input type="checkbox" id="skipping" name="complete4" value="skipping"
+                                               onclick="challengeFourComplete(); saveChallenge4(this.value); allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+
+        <div class="challenges">
+            <div class="images">
+                <img src="media/burpees.jpeg">
+                <h2 id="challengeFiveHeader"> Challenge 5 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeFive"> Burpees: Try to do 50 burpees today. Depending on your fitness levels you can do
+                    them all at once or spread them throughout the day. But remember you'll burn more calories if you do
+                    them straight.</p>
+                <p id="challengeFiveCB"><input type="checkbox" id="burpees" name="complete5" value="burpees"
+                                               onclick="challengeFiveComplete(); saveChallenge5(this.value); allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+
+        <div class="challenges">
+            <div class="images">
+                <img src="media/situps.jpeg">
+                <h2 id="challengeSixHeader"> Challenge 6 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeSix"> Sit-ups: Try to do 50 sit-ups! Depending on your fitness levels you can do them
+                    all at once or spread them throughout your day.</p>
+                <p id="challengeSixCB"><input type="checkbox" id="situps" name="complete6" value="situps"
+                                              onclick="challengeSixComplete(); saveChallenge6(this.value); allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+
+        <div class="challenges">
+            <div class="images">
+                <img src="media/mountain.jpeg">
+                <h2 id="challengeSevenHeader"> Challenge 7 </h2>
+            </div>
+            <div class="challengeDescription">
+                <p id="challengeSeven"> Mountain Climbers: Try to do 10 sets of mountain climbers! Depending on your
+                    fitness levels these sets can range between 20 seconds and a minute. </p>
+                <p id="challengeSevenCB"><input type="checkbox" id="mountain" name="complete7" value="mountain"
+                                                onclick="challengeSevenComplete(); saveChallenge7(this.value); allDone();">
+                    Challenge complete</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="nav">
+    <a href="index.html"> <i class="fa fa-home"></i></a>
+    <a href="profile.php"><i class="fa fa-user"></i></a>
+    <a href="chat.php"><i class="fa fa-comment"></i></a>
+    <a href="logout.php"><i class="fa fa-sign-out"></i></a>
+</div>
+
+
+
+<script src="fitness.js"></script>
+</body>
+</html>
+
