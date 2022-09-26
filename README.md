@@ -22,3 +22,6 @@ or an Android / iOS native app.
 
 The aim is to develop a prototype that shows key elements of your application but it does not have to be a full working application with some elements 
 placeholder or simplified - you should simulate any aspects of the code that is not possible to develop within the project (i.e. communication with external hardware)
+
+
+Completed by Karmen Tsang, Aqsa Hamid, Erin Allen, Aleena Shad and Sudeep Dhakal
