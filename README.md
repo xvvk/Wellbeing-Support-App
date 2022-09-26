@@ -1,6 +1,7 @@
 # Wellbeing-Support-App
 CS317 Mobile App Group Assessment
 
+##### Completed by Karmen Tsang, Aqsa Hamid, Erin Allen, Aleena Shad and Sudeep Dhakal
 
 Your app may focus on support for individuals, for community groups, for sports groups or family/friendship groups. 
 You should support one or more of the Five Ways to Wellbeing 
@@ -24,4 +25,3 @@ The aim is to develop a prototype that shows key elements of your application bu
 placeholder or simplified - you should simulate any aspects of the code that is not possible to develop within the project (i.e. communication with external hardware)
 
 
-Completed by Karmen Tsang, Aqsa Hamid, Erin Allen, Aleena Shad and Sudeep Dhakal
